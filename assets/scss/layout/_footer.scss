@@ -1,0 +1,44 @@
+@use "../abstract/variable" as var;
+
+.footercontact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-top: 3rem;
+}
+
+.blocG {
+    margin-left: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+
+}
+
+.logoreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20rem;
+}
+
+.logoreso a i {
+    color: white;
+    padding: 10px;
+    font-size: 30px; /* Taille des icônes */
+    
+}
+
+
+.logoreso a:hover i {
+    transform: scale(1.2);
+    color: #0077b5; /* Changer la couleur au survol (ex: LinkedIn Blue) */
+}
+
+.logoreso a:hover .fa-youtube{
+    color: #ff0000;
+}
+
+.logoreso a:hover .fa-linkedin-in{
+    color: #ca1d88; 
+}

@@ -1,0 +1,141 @@
+@use "../abstract/variable" as var;
+
+@use "../abstract/mixing";
+
+.saut {
+    display: block;
+}
+
+
+
+  @media screen and (max-width: 806px) {
+    h1 {
+        font-size: 28px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        }
+  }
+
+  @media screen and (max-width: 806px) {
+    h1 {
+        font-size: 18px;
+  }
+
+}
+
+
+                                  // Partie project // 
+
+.main_project {
+  display: flex;
+  flex-direction: column;
+}
+
+.article1 {
+  background-image: url(../img/bg_doux.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 98%;
+  height: 47rem;
+  border-radius: 50px;
+  margin-top: 50px;
+  h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 2rem;
+    
+  }
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 2rem;
+
+  .text_article {
+    width: 350px;
+    height: 500px;
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+  }
+}
+
+.article2 {
+  background-image: url(../img/fond_peps.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 98%;
+  height: 47rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 50px;
+
+}
+
+.article2 {
+  margin-top: 50px;
+  h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 2rem;
+    
+  }
+}
+
+.article3 {
+  background-image: url(../img/fond_gamingcampus.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 98%;
+  height: 47rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 50px;
+
+}
+
+.article3 {
+  margin-top: 50px;
+  h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-left: 2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 2rem;
+    
+  }
+}
+
+
+                            // Partie Contact // 
+
+.bodycontact {
+  background-color: #6C6961;
+}
+
+
+.imgformulaire {
+  display: flex;
+  
+}
+
+
